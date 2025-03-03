@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBox HorizontalAlignment="Left" Height="25" Margin="56,23,0,0" TextWrapping="Wrap" Text="Squadra in casa" VerticalAlignment="Top" Width="90" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="56,80,0,0" TextWrapping="Wrap" Text="Squadra ospite" VerticalAlignment="Top" Width="90"/>
+        <TextBox HorizontalAlignment="Left" Height="25" Margin="56,144,0,0" TextWrapping="Wrap" Text="Anno svolgimento" VerticalAlignment="Top" Width="104"/>
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="56,217,0,0" TextWrapping="Wrap" Text="Risultato" VerticalAlignment="Top" Width="90"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="56,285,0,0" TextWrapping="Wrap" Text="Nominativi marcatori" VerticalAlignment="Top" Width="119"/>
+        <Button Content="Crea partita" HorizontalAlignment="Left" Height="45" Margin="56,340,0,0" VerticalAlignment="Top" Width="104"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="519,104,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="213"/>
+        <Button Content="Aggiunta storiografia" HorizontalAlignment="Left" Height="35" Margin="489,230,0,0" VerticalAlignment="Top" Width="92"/>
+        <Button Content="Ricerca anno" HorizontalAlignment="Left" Height="35" Margin="615,230,0,0" VerticalAlignment="Top" Width="103"/>
+        <Button Content="Ricerca squadra" HorizontalAlignment="Left" Height="41" Margin="489,298,0,0" VerticalAlignment="Top" Width="92"/>
+        <Button Content="Numero Partite inserite" HorizontalAlignment="Left" Height="41" Margin="615,298,0,0" VerticalAlignment="Top" Width="103"/>
 
     </Grid>
 </Window>
