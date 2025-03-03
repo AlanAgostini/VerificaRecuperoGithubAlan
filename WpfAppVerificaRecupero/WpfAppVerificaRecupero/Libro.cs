@@ -10,6 +10,7 @@ namespace WpfAppVerificaRecupero
     {
         public Libro() 
         {
+            //Questo è un commento
             string CasaEditrice;
             int Pagine;
             string Titolo;
